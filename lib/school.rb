@@ -29,7 +29,7 @@ class School
   end 
     
   def sort
-    @roster.each do |grade|
+    @roster.keys.sort.each do |grade|
       
   end 
   
