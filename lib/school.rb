@@ -29,8 +29,9 @@ class School
   end 
     
   def sort
-    @roster.keys.sort.each do |grade|
-      
+    @roster.keys.sort.each do |grade,student_names|
+      student_names
+    end 
   end 
   
 end 
